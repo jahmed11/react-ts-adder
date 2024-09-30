@@ -1,0 +1,22 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.list-wrapper {
+  margin-top: 10px;
+}
+
+.sum-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  align-items: center;
+  background-color: var(--color-primary);
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 10px;
+  font-weight: 600;
+}

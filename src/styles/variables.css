@@ -1,0 +1,9 @@
+/* variables.css */
+:root {
+  --color-primary: #007bff;
+  --color-primary-hover: #0056b3;
+  --color-secondary: #e6e6e6;
+  --color-danger: #dc3545;
+  --color-danger-hover: #c82333;
+  --color-border: #ccc;
+}

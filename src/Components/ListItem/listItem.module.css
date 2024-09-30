@@ -1,0 +1,20 @@
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-secondary);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.item__action {
+  align-self: center;
+  justify-self: flex-end;
+  color: var(--color-danger);
+  padding: 0;
+}
+
+.item__action:hover {
+  cursor: pointer;
+  color: var(--color-danger-hover);
+}
