@@ -13,7 +13,12 @@ const AddNumberForm = ({ onSubmit, addNum, onChangeHandler }: AddNumberFormProps
   return (
     <form name="addNumber" onSubmit={onSubmit}>
       <div className={styles["num-form-container"]}>
-        <Input placeholder="enter number here" value={addNum} onChange={onChangeHandler} />
+        <Input
+          type="text"
+          placeholder="enter number here"
+          value={addNum}
+          onChange={onChangeHandler}
+        />
         <Button type="submit" variant="primary">
           Add
         </Button>

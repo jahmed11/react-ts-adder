@@ -6,11 +6,12 @@ interface InputProps {
   placeholder: string;
   onChange: (e: ChangeEvent<HTMLInputElement>) => void;
   onKeyDown?: () => void;
+  type: "text" | "number";
 }
-const Input = ({ value, onChange, onKeyDown, placeholder }: InputProps) => {
+const Input = ({ value, onChange, onKeyDown, placeholder, type }: InputProps) => {
   return (
     <input
-      type="text"
+      type={type}
       value={value}
       onChange={onChange}
       onKeyDown={onKeyDown}

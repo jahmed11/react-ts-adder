@@ -32,7 +32,7 @@ const AddNumber = ({ setNumList }: AddNumberProps) => {
     if (!Number(addNum)) {
       return;
     }
-    setNumList((prev) => [...prev, { num: Number(addNum), id: prev.length }]);
+    setNumList((prev) => [...prev, { num: Number(addNum), id: Date.now() }]);
 
     setAddNum("0");
   };
